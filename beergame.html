@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title> Lets Drink </title>
-        <link rel="stylesheet" type="text/css" href="beergame.css">
-    </head>
-    <body>
-        <div id="homePage">
-            <div id="buttonsArea" align="center">
-            </div>
-            <div id='rules' align="center" style="display:none;">
-                <p><b>
-                    <p style="font-size: 40px;"> The rules for the game are: </p><br>
-                    Ace:rule<br>Two:rule<br>Three:rule<br>Four:rule<br>Five:rule<br>Six:rule<br>
-                    Seven:rule<br>Eight:rule<br>Nine:rule<br>Ten:rule<br>Jack:rule<br>Queen:rule<br>
-                    King:rule
-                </b></p>
-            </div>
-            <div id="PlayingCard">
-                <span id="TopLeft">&#9829;</span>
-                <span id="BottomRight">&#9829;</span>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lets Drink</title>
+    <link rel="stylesheet" type="text/css" href="beergame.css" />
+  </head>
+  <body>
+    <div id="homePage">
+      <div id="buttonsArea" align="center"></div>
+      <div id="rules" align="center" class="rules">
+        <p>
+          <b>
+            <p style="font-size: 40px;">The rules for the game are:</p>
+            <br />
+            Ace:rule<br />Two:rule<br />Three:rule<br />Four:rule<br />Five:rule<br />Six:rule<br />
+            Seven:rule<br />Eight:rule<br />Nine:rule<br />Ten:rule<br />Jack:rule<br />Queen:rule<br />
+            King:rule
+          </b>
+        </p>
+        <button id="rules-close">CLOSE</button>
+      </div>
+      <div id="card" class="card">
+        <div class="card-top-left">
+          <span class="card-number"></span>
+          <span class="card-suite"></span>
         </div>
-        <script src = "beergame.js"></script>
-    </body>
+        <div class="card-middle">
+          <img
+            class="card-middle-kuznitza"
+            src="images/IMG-20150302-WA0012.jpg"
+          />
+        </div>
+        <div class="card-bottom-right">
+          <span class="card-number"></span>
+          <span class="card-suite"></span>
+        </div>
+      </div>
+    </div>
+    <script src="beergame.js"></script>
+  </body>
 </html>
+<!-- FUCK DAN -->
