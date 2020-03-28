@@ -1,0 +1,51 @@
+html,body,#homePage{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#homePage{
+
+    padding: 17px 32px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: teal;
+    border: none;
+}
+.invisible{
+    display: none;
+}
+#buttons, #rules{
+    top: 20%;
+    position: sticky;
+}
+#rules{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: lavender;
+    text-shadow: 3px 3px #000000;
+}
+#PlayingCard{
+    position: absolute;
+    background-color: white;
+    border:1px solid black;
+    border-radius: 3.5%;
+    top: 15%;
+    left: 39%;
+    width:300px;
+    height:500px;
+}
+#TopLeft{
+    position: relative;
+    font-size: 65px;
+    top:3.5%;
+    left:8%;
+    color:red;
+}
+#BottomRight{
+    position: relative;
+    font-size: 65px;
+    left:58%;
+    top:83.5%;
+    color:red;
+}
